@@ -13,29 +13,36 @@
     <script src="https://kit.fontawesome.com/3dca9f1544.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="info-icons">
-        <div class="icons">
-            <div class="icon">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
+    <!-- 
+        ! Trocar todos os icons por SVG
+        ! Deixar fixo o tamanho dos ícones (com px)
+        ! Arrumar o tamanho do botão pesquisar (igualar ao tamanho da barra de pesquisa)
+    -->
+    <div class="header">
+        <div class="icons nine-dots">
+            <div class="icon-svg">
+                <img src="./image/icons/nine-dots.svg" alt="" srcset="">
             </div>
         </div>
-        <div class="icons">
-            <div class="icon">
-                <i class="fa-regular fa-bell"></i>
+        <div class="icons bell">
+            <div class="icon-svg">
+                <img src="./image/icons/bell.svg" alt="" srcset="">
             </div>
-            <div class="icon gear">
-                <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="icons gear">
+            <div class="icon-svg">
+                <img src="./image/icons/gear.svg" alt="" srcset="">
             </div>
         </div>
     </div>
 
-    <div class="main">
+    <!-- <div class="main">
         <div class="logo">
             <img src="./image/microsoft-logo.png" alt="Microsoft" srcset="">
         </div>
         <div class="search">
             <input class="field" type="text" placeholder="Pesquisar na web">
-            <button class="button">
+            <button class="button" onclick="searchGoogle()">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </div>
@@ -47,48 +54,48 @@
             </div>
             <div class="text-right">
                 <span>Links rápidos</span>
-                <div class="fast-links">
+                <div class="fast-links" onclick="toggleLinks()">
                     <i class="fa-solid fa-angle-down"></i>
                 </div>
             </div>
         </div>
         <div class="links">
-            <div class="link-icon">
+            <a href="https://youtube.com" class="link-icon">
                 <i class="fa-brands fa-youtube link-icons" style="color: var(--youtube)"></i>
                 <span>Youtube</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://github.com/" class="link-icon">
                 <i class="fa-brands fa-github link-icons" style="color: var(--github)"></i>
                 <span>Github</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://linkedin.com/" class="link-icon">
                 <i class="fa-brands fa-linkedin link-icons" style="color: var(--linkedin)"></i>
                 <span>LinkedIn</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://facebook.com/" class="link-icon">
                 <i class="fa-brands fa-facebook link-icons" style="color: var(--facebook)"></i>
                 <span>Facebook</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://google.com" class="link-icon">
                 <i class="fa-brands fa-google link-icons" style="color: var(--google)"></i>
                 <span>Google</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://getbootstrap.com/" class="link-icon">
                 <i class="fa-brands fa-bootstrap link-icons" style="color: var(--bootstrap)"></i>
                 <span>Bootstrap</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://developer.mozilla.com" class="link-icon">
                 <i class="fa-brands fa-html5 link-icons" style="color: var(--html)"></i>
                 <span>HTML5</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://stackoverflow.com/" class="link-icon">
                 <i class="fa-brands fa-stack-overflow link-icons" style="color: var(--stackoverflow)"></i>
                 <span>StackOverflow</span>
-            </div>
-            <div class="link-icon">
+            </a>
+            <a href="https://skype.com" class="link-icon">
                 <i class="fa-brands fa-skype link-icons" style="color: var(--skype)"></i>
                 <span>Skype</span>
-            </div>
+            </a>
             <div class="link-icon">
                 <i class="fa-solid fa-plus"></i>
             </div>
@@ -114,8 +121,7 @@
               <i class="fa-solid fa-table-cells-large table-icon" style="border: 1px solid var(--gray-border);"></i>
               <i class="fa-solid fa-bars list-icon" style="border: 1px solid var(--blue-border)"></i>
         </div>
-    </footer>
-
+    </footer> -->
     
     <script src="./javascript/script.js"></script>
 </body>
