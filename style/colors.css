@@ -6,6 +6,8 @@
     --darkGray-fastLink-hover: #303030;
     --gray-border: #636363;
     --gray-underline: #3D3D3D;
+    --gray-background: #4A4A4A;
+    --gray-hover: #191919;
     --white: #FFF;
     --blue-search: #0078D4;
     --blue-search-hover: #006CBE;
@@ -17,7 +19,7 @@
     --github: #FFF;
     --linkedin: #0071AE;
     --facebook: #1672E6;
-    --google: #FFF;
+    --google: #44BE54;
     --bootstrap: #7611ED;
     --html: #E56027;
     --skype: #00A6E4;

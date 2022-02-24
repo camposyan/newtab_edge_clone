@@ -1,11 +1,13 @@
 function toggleLinks (){
     let links = document.querySelector('.links');
     
-    if(links.style.display == 'none' || links.style.display == null){
-        links.style.display = 'flex';
+    if(links.classList.contains('d-flex')){
+        links.classList.remove('d-flex');
+        links.classList.add('d-none');
     }
     else{
-        links.style.display = 'none';
+        links.classList.remove('d-none');
+        links.classList.add('d-flex');
     }
 }
 
