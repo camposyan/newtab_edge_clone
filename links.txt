@@ -1,0 +1,2 @@
+https://assets.msn.com/bundles/v1/weather/latest/MostlyCloudyDayV2.svg - Maioria nublado
+https://assets.msn.com/bundles/v1/weather/latest/MostlyClearNight.svg - Maioria claro

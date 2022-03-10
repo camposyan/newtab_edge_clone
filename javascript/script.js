@@ -1,9 +1,16 @@
+document.querySelector('.weather').addEventListener('mouseover', async(e) => {
+    e.preventDefault();
+    console.log('teste');
+})
+
+
 function toggleLinks (){
     let links = document.querySelector('.links');
     
     if(links.classList.contains('d-flex')){
         links.classList.remove('d-flex');
         links.classList.add('d-none');
+        document
     }
     else{
         links.classList.remove('d-none');
